@@ -312,6 +312,12 @@ const StyledWrapper = styled.div`
     border: 2px solid #22c55e;
     box-shadow: 0 0 0 1px #22c55e, 0 2px 4px rgba(34, 197, 94, 0.3);
   }
+  /* Ensure mastercard not forcibly active green outline */
+  .card .content .color-size-container .colors .colors-container .payment-card.mastercard .card-icon {
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  }
+
 
   .card .content .color-size-container .sizes .size-container {
     list-style-type: none;
