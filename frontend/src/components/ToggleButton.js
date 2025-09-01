@@ -50,7 +50,7 @@ const StyledWrapper = styled.div`
     box-shadow: 0 8px 14px -4px rgba(0, 0, 0, 0.4), inset 0 -2px 3px -1px rgba(0, 0, 0, 0.2), 0 -6px 10px -1px rgba(255, 255, 255, 0.6), inset 0 2px 3px -1px rgba(255, 255, 255, 0.2);
     border-radius: 28px;
     position: absolute;
-    background: #eaeaea;
+    background: #ffffff;
     margin-left: -20px;
     margin-top: -20px;
     display: block;
