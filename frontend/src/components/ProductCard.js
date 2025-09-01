@@ -94,8 +94,12 @@ const ProductCard = () => {
                 <li className="payment-card visa" aria-label="Visa">
                   <div className="card-icon real-icon visa"><SiVisa size={20} color="#1434CB"/></div>
                 </li>
-                <li className="payment-card mastercard active" aria-label="Mastercard">
-                  <div className="card-icon real-icon mastercard"><SiMastercard size={20} color="#EB001B"/></div>
+                <li className="payment-card mastercard" aria-label="Mastercard">
+                  <svg viewBox="0 0 40 24" className="card-icon real-icon mastercard" role="img" aria-label="Mastercard">
+                    <rect width="40" height="24" rx="4" fill="#ffffff"/>
+                    <circle cx="18" cy="12" r="7" fill="#EB001B"/>
+                    <circle cx="22" cy="12" r="7" fill="#F79E1B"/>
+                  </svg>
                 </li>
                 <li className="payment-card google" aria-label="Google Pay">
                   <div className="card-icon real-icon google"><SiGooglepay size={20} color="#4285F4"/></div>
