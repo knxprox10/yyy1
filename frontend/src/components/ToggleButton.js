@@ -47,26 +47,26 @@ const StyledWrapper = styled.div`
 
   .toggle .button {
     transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
-    box-shadow: 0 15px 25px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 15px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -1px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.8), inset 0 20px 30px 0 rgba(255, 255, 255, 0.2);
-    border-radius: 68.8px;
+    box-shadow: 0 8px 14px -4px rgba(0, 0, 0, 0.4), inset 0 -2px 3px -1px rgba(0, 0, 0, 0.2), 0 -6px 10px -1px rgba(255, 255, 255, 0.6), inset 0 2px 3px -1px rgba(255, 255, 255, 0.2);
+    border-radius: 28px;
     position: absolute;
     background: #eaeaea;
-    margin-left: -34.4px;
-    margin-top: -34.4px;
+    margin-left: -20px;
+    margin-top: -20px;
     display: block;
-    height: 68.8px;
-    width: 68.8px;
+    height: 40px;
+    width: 40px;
     left: 50%;
     top: 50%;
   }
 
   .toggle .label {
     transition: color 300ms ease-out;
-    line-height: 101px;
+    line-height: 40px;
     text-align: center;
     position: absolute;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 16px;
     display: block;
     opacity: 0.9;
     height: 100%;
