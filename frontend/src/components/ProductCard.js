@@ -5,6 +5,8 @@ import ToggleButton from './ToggleButton';
 import { useState } from 'react';
 
 const ProductCard = () => {
+  const [isOnline, setIsOnline] = useState(true);
+
   return (
     <StyledWrapper>
       <div className="card">
