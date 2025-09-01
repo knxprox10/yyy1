@@ -297,6 +297,12 @@ const StyledWrapper = styled.div`
     border-radius: 3px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   }
+  .card .content .color-size-container .colors .colors-container .payment-card .real-icon { display: flex; align-items: center; justify-content: center; background: white; padding: 2px 6px; border-radius: 4px; }
+  .card .content .color-size-container .colors .colors-container .payment-card.visa .real-icon svg { width: 28px; height: 16px; }
+  .card .content .color-size-container .colors .colors-container .payment-card.mastercard .real-icon svg { width: 28px; height: 16px; }
+  .card .content .color-size-container .colors .colors-container .payment-card.google .real-icon svg { width: 28px; height: 16px; }
+  .card .content .color-size-container .colors .colors-container .payment-card.paypal .real-icon svg { width: 28px; height: 16px; }
+
 
   .card .content .color-size-container .colors .colors-container .payment-card.active .card-icon {
     border: 2px solid #22c55e;
