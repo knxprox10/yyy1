@@ -1,12 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import { SiVisa, SiMastercard, SiGooglepay, SiPaypal } from 'react-icons/si';
+import ToggleButton from './ToggleButton';
 
 const ProductCard = () => {
   return (
     <StyledWrapper>
       <div className="card">
         <div className="image-container">
+          <div className="toggle-wrapper">
+            <ToggleButton />
+          </div>
           <svg viewBox="0 0 1921 1081" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" className="svg">
             <defs>
               <radialGradient gradientUnits="objectBoundingBox" gradientTransform="translate(0.219) scale(0.563 1)" r="1.204" cy="0.5" cx="0.5" id="radial-gradient">
@@ -170,6 +174,13 @@ const StyledWrapper = styled.div`
     border-radius: inherit;
   }
 
+  .card .image-container .toggle-wrapper {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.3rem;
+    z-index: 3;
+  }
+
   .card .image-container .price {
     position: absolute;
     left: 0.7rem;
@@ -306,56 +317,6 @@ const StyledWrapper = styled.div`
   .card .content .color-size-container .colors .colors-container .payment-card.mastercard .real-icon svg { width: 28px; height: 16px; }
   .card .content .color-size-container .colors .colors-container .payment-card.google .real-icon svg { width: 28px; height: 16px; }
   .card .content .color-size-container .colors .colors-container .payment-card.paypal .real-icon svg { width: 28px; height: 16px; }
-
-
-  .card .content .color-size-container .colors .colors-container .payment-card.active .card-icon {
-    border: 2px solid #22c55e;
-    box-shadow: 0 0 0 1px #22c55e, 0 2px 4px rgba(34, 197, 94, 0.3);
-  }
-  /* Ensure mastercard not forcibly active green outline */
-  .card .content .color-size-container .colors .colors-container .payment-card.mastercard .card-icon {
-    border: none;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-  }
-
-
-  .card .content .color-size-container .sizes .size-container {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 0.2rem;
-  }
-
-  .card .content .color-size-container .sizes .size-container .size {
-    height: 14px;
-  }
-
-  .card .content .color-size-container .sizes .size-container .size .size-radio {
-    cursor: pointer;
-  }
-
-  .card .content .color-size-container .sizes .size-container .size .size-radio input {
-    display: none;
-  }
-
-  .card .content .color-size-container .sizes .size-container .size .size-radio input:checked ~ .name {
-    background: var(--accent-color);
-    border-radius: 2rem 2rem 1.5rem 1.5rem;
-    color: white;
-  }
-
-  .card .content .color-size-container .sizes .size-container .size .size-radio .name {
-    display: grid;
-    place-content: center;
-    height: 100%;
-    aspect-ratio: 1.2/1;
-    text-decoration: none;
-    color: #484848;
-    font-size: 0.5rem;
-    text-align: center;
-  }
 
   .card .content .rating {
     color: #a8a8a8;
