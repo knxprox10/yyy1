@@ -91,11 +91,8 @@ const ProductCard = () => {
           <div className="color-size-container">
             <div className="colors">
               <ul className="colors-container">
-                <li className="payment-card visa">
-                  <svg viewBox="0 0 40 24" className="card-icon">
-                    <rect width="40" height="24" rx="4" fill="#1434CB"/>
-                    <text x="20" y="16" textAnchor="middle" fill="white" fontSize="8" fontFamily="Arial, sans-serif" fontWeight="bold">VISA</text>
-                  </svg>
+                <li className="payment-card visa" aria-label="Visa">
+                  <div className="card-icon real-icon visa"><SiVisa size={20} color="#1434CB"/></div>
                 </li>
                 <li className="payment-card mastercard active">
                   <svg viewBox="0 0 40 24" className="card-icon">
