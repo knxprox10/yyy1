@@ -30,11 +30,11 @@ const StyledWrapper = styled.div`
     content: "";
     box-shadow: 0;
     border-radius: 40px;
-    background: #fff;
+    background: #ffffff;
     position: absolute;
     margin-left: -18px;
     margin-top: -18px;
-    opacity: 0.2;
+    opacity: 0.25;
     height: 36px;
     width: 36px;
     left: 50%;
