@@ -22,20 +22,21 @@ const StyledWrapper = styled.div`
 
   .toggle {
     position: relative;
-    height: 100px;
-    width: 100px;
+    height: 40px;
+    width: 40px;
   }
 
   .toggle:before {
+    content: "";
     box-shadow: 0;
-    border-radius: 84.5px;
+    border-radius: 40px;
     background: #fff;
     position: absolute;
-    margin-left: -36px;
-    margin-top: -36px;
+    margin-left: -18px;
+    margin-top: -18px;
     opacity: 0.2;
-    height: 72px;
-    width: 72px;
+    height: 36px;
+    width: 36px;
     left: 50%;
     top: 50%;
   }
