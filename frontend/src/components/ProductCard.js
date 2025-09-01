@@ -176,8 +176,8 @@ const StyledWrapper = styled.div`
 
   .card .image-container .toggle-wrapper {
     position: absolute;
-    left: 0.7rem;
-    bottom: -1rem;
+    left: 20px;
+    bottom: -20px;
     z-index: 4;
   }
 
