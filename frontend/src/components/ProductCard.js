@@ -118,41 +118,6 @@ const ProductCard = () => {
                 </li>
               </ul>
             </div>
-            <div className="sizes">
-              Size
-              <ul className="size-container">
-                <li className="size">
-                  <label className="size-radio">
-                    <input name="size" defaultValue="xs" type="radio" />
-                    <span className="name">XS</span>
-                  </label>
-                </li>
-                <li className="size">
-                  <label className="size-radio">
-                    <input defaultChecked name="size" defaultValue="s" type="radio" />
-                    <span className="name">S</span>
-                  </label>
-                </li>
-                <li className="size">
-                  <label className="size-radio">
-                    <input name="size" defaultValue="m" type="radio" />
-                    <span className="name">M</span>
-                  </label>
-                </li>
-                <li className="size">
-                  <label className="size-radio">
-                    <input name="size" defaultValue="l" type="radio" />
-                    <span className="name">L</span>
-                  </label>
-                </li>
-                <li className="size">
-                  <label className="size-radio">
-                    <input name="size" defaultValue="xl" type="radio" />
-                    <span className="name">XL</span>
-                  </label>
-                </li>
-              </ul>
-            </div>
           </div>
           <div className="rating">
             <svg viewBox="0 0 99.498 16.286" xmlns="http://www.w3.org/2000/svg" className="svg four-star-svg">
