@@ -51,6 +51,7 @@ const StyledWrapper = styled.div`
     border-radius: 28px;
     position: absolute;
     background: #ffffff;
+    border: 1px solid #e5e7eb;
     margin-left: -20px;
     margin-top: -20px;
     display: block;
