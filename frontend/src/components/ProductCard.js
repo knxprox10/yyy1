@@ -197,8 +197,8 @@ const StyledWrapper = styled.div`
   /* Place toggle inside price bubble position */
   .card .image-container .toggle-wrapper {
     position: absolute;
-    left: 0.7rem;
-    bottom: -1rem;
+    left: 20px;
+    bottom: -20px;
     z-index: 4;
   }
 
