@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Button = () => {
+const Button = ({ checked = false, onChange }) => {
   return (
     <StyledWrapper>
       <div className="container">
         <div className="toggle">
-          <input type="checkbox" />
+          <input type="checkbox" checked={checked} onChange={onChange} aria-label="toggle-indicator" />
           <span className="button" />
           <span className="label">☼</span>
         </div>
