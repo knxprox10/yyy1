@@ -40,7 +40,7 @@ const StyledWrapper = styled.div`
     top: 50%;
   }
 
-  .toogle input:checked~.label {
+  .toggle input:checked~.label {
     color: rgba(255,0,0,0.8);
   }
 
