@@ -176,9 +176,9 @@ const StyledWrapper = styled.div`
 
   .card .image-container .toggle-wrapper {
     position: absolute;
-    top: 0.3rem;
-    right: 0.3rem;
-    z-index: 3;
+    left: 0.7rem;
+    bottom: -1rem;
+    z-index: 4;
   }
 
   .card .image-container .price {
